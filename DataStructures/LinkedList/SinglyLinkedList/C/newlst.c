@@ -1,4 +1,4 @@
-#include "s_lined_lst.h"
+#include "s_linked_lst.h"
 
 t_node	*newlst(void *data)
 {

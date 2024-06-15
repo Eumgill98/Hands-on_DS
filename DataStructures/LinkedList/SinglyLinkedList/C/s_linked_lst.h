@@ -14,5 +14,8 @@ t_node	*lastlst(t_node *curr);
 
 void	addlst_front(t_node **curr, void *data);
 void	addlst_back(t_node **curr, void *data);
+void	dellst_front(t_node **curr);
+void	dellst_back(t_node **curr);
+
 
 #endif
