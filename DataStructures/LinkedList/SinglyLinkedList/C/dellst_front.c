@@ -1,14 +1,14 @@
 #include "s_linked_lst.h"
 
-void    dellst_front(t_node **curr)
+void    dellst_front(t_node **head)
 {
     t_node *new_first;
 
-    if (!*(curr))
+    if (!*(head))
         return ;
-    new_first = *(curr)->next
-    *(curr)->data = NULL;
-    *(curr)->next = NULL;
-    free(*curr);
-    *curr = new_first;
+    new_first = *(head)->next
+    *(head)->data = NULL;
+    *(head)->next = NULL;
+    free(*head);
+    *head = new_first;
 }
