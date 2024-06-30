@@ -7,7 +7,7 @@
 typedef struct s_node
 {
 	void	*data;
-	s_node	*next;
+	struct s_node	*next;
 }	t_node;
 
 t_node	*newlst(void *data);
